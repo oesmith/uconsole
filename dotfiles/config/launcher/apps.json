@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Firefox",
+    "icon": "/usr/share/icons/hicolor/64x64/apps/firefox.png",
+    "cmd": "gtk-launch firefox"
+  },
+  {
+    "name": "Tuba",
+    "icon": "/var/lib/flatpak/exports/share/icons/hicolor/scalable/apps/dev.geopjr.Tuba.svg",
+    "cmd": "gtk-launch dev.geopjr.Tuba"
+  },
+  {
+    "name": "aerc",
+    "icon": "/usr/share/icons/hicolor/scalable/apps/foot.svg",
+    "cmd": "foot aerc"
+  },
+  {
+    "name": "w3m",
+    "icon": "/usr/share/icons/hicolor/scalable/apps/foot.svg",
+    "cmd": "foot w3m -sixel -B"
+  },
+  {
+    "name": "LocalSend",
+    "icon": "/var/lib/flatpak/exports/share/icons/hicolor/512x512/apps/org.localsend.localsend_app.png",
+    "cmd": "gtk-launch org.localsend.localsend_app"
+  }
+]

@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[alias]
+	st = status
+[user]
+	email = olly.smith@gmail.com
+	name = Olly Smith
