@@ -36,3 +36,17 @@ deb packages that can be installed on a Debian-based system.
 5. Build a kernel package
 
     make -j4 bindeb-pkg
+
+## Build dependencies
+
+You may also need to install arm64 build dependencies in order to cross-compile
+the kernel.
+
+1. Add the `arm64` architecture
+
+    dpkg --add-architecture arm64
+
+2. Install any required native dependencies
+
+    apt install libssl-dev:arm64
+
